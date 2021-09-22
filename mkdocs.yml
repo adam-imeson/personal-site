@@ -1,0 +1,21 @@
+site_name: adamimeson.tech
+site_description: Adam Imeson's personal website
+copyright: Copyright &copy; 2021 Adam Imeson. All Rights Reserved.
+
+theme:
+  name: bootstrap4
+  favicon: assets/favicon.ico
+  language: en
+  font: false # security
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+
+plugins:
+  - search
+
+nav:
+  - 'Home': index.md 
+  - 'Posts':
+    - 'Spaced Repetition': spacedrepetition.md
